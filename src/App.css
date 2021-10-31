@@ -262,6 +262,12 @@ h2 {
   line-height: 1.5;
 }
 
+.align-contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* ///// inputs /////*/
 
 .myt:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
@@ -284,10 +290,6 @@ h2 {
   .styled-input {
       width:100%;
   }
-}
-
-.contact-form{
-  width: 50%;
 }
 
 .styled-input label {

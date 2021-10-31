@@ -4,7 +4,7 @@ import '../App.css'
 const Contact = () => {
   return (
     <div>
-      <div className="container d-flex flex-column contact-form">
+      <div className="container">
         <div className="row">
           <h1>Order for a Tour Today!!</h1>
         </div>
@@ -12,7 +12,7 @@ const Contact = () => {
           <h2 className="text-center">We'd try to reach you within an hour. Please be patient!!</h2>
         </div>
 
-        <div className="align-self-center">
+        <div className="mx-auto text-center align-items-lg-center align-self-center d-flex flex-column justify-content-center ">
           <div className="row input-container">
             <div className="col-xs-12">
               <div className="styled-input wide">

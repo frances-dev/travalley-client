@@ -36,7 +36,7 @@ const Header = () => {
                 Manage Orders
               </Nav.Link>
             </Nav>
-            <Nav className="mx-auto align-items-center">
+            <Nav className="align-items-center">
               {!displayName ? (
                 <>
                   <Nav.Link as={NavLink} to="/signup" className="nav-text my-hover">
