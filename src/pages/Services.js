@@ -1,10 +1,8 @@
-import { Container, Row } from "react-bootstrap";
 import useAuth from "./../hooks/useAuth.js";
-import sectionBG from "./../assets/images/sectionBg.png";
 import Service from "../components/Service/Service.js";
 
 const Services = () => {
-  const { services, totalPage, currentPage, setCurrentPage } = useAuth();
+  const { services, setCurrentPage } = useAuth();
 
   function pageHandler(number) {
     setCurrentPage(number);

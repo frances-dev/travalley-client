@@ -52,6 +52,10 @@ function App() {
               <Dashboard></Dashboard>
             </PrivateRoute>
 
+            <Route path="/manage-orders">
+              <AdminPanel></AdminPanel>
+            </Route>
+
             <Route path="/login">
               <Login></Login>
             </Route>

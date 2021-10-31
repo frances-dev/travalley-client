@@ -1,9 +1,10 @@
 import React from 'react';
+import '../App.css'
 
 const Contact = () => {
   return (
     <div>
-      <div className="container d-flex flex-column">
+      <div className="container d-flex flex-column contact-form">
         <div className="row">
           <h1>Order for a Tour Today!!</h1>
         </div>

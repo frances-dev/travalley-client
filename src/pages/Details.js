@@ -3,10 +3,6 @@ import { useHistory } from "react-router-dom";
 import useAuth from "./../hooks/useAuth.js";
 import { useParams } from "react-router-dom";
 import { Col, Container, Row } from "react-bootstrap";
-import Rating from "react-rating";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar as fullStar } from "@fortawesome/free-solid-svg-icons";
-import { faStar as emptyStar } from "@fortawesome/free-regular-svg-icons";
 
 const Details = () => {
   const history = useHistory();
