@@ -1,6 +1,6 @@
 # Get introduces with Travalley Web App
 
-This project was created with React and hosted on firebase. Check it out here (https://github.com/facebook/create-react-app).
+This project was created with React and hosted on firebase. Check it out here (https://travalley-e5738.web.app/).
 
 ## Available functionalities in this project
 
