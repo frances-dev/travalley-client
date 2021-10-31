@@ -1,0 +1,156 @@
+/* Footer Top Bar Styles Starts */
+.footer-bg{
+  background-color: mistyrose;
+}
+
+.footer-top-bar {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+	.footer-top-bar > .container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.footer-top-bar h3 {
+		margin-top: 10px;
+		margin-bottom: 0;
+		color: rgb(145, 145, 145);
+	}
+	.footer-top-bar .btn-black {
+		padding: 15px 40px;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	
+/* Footer Styles Starts */
+
+.main-footer {
+}
+	.footer-area {
+        margin-top: 100px;
+		padding-top: 50px;
+		padding-bottom: 50px;		
+	}
+		.footer-area > .container {
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+		.footer-area, 
+		.footer-area a {
+			color: #8d8d8d;
+		}
+		.footer-area a:hover {
+			color: #4db1e2;
+		}
+		.footer-area h4 {
+			margin-top: 0;
+			margin-bottom: 30px;
+			padding-bottom: 20px;
+			position: relative;
+			color: rgb(199, 146, 78);
+		}
+			.footer-area h4:after {
+				content: "";
+				position: absolute;
+				width: 69px;
+				height: 2px;
+				left: 0;
+				bottom: 0;
+			}
+		.footer-area ul {
+			margin-bottom: 0;
+		}
+			.footer-area li + li {
+				margin-top: 10px;
+			}
+				.footer-area li .fa {
+					margin-right: 7px;
+					font-weight: bold;
+				}				
+		.footer-area .address-list {
+			margin-top: 15px;
+			margin-bottom:0;
+		}
+			.footer-area .address-list li {
+				margin-top: 10px;
+			}
+				.footer-area .address-list li .fa {
+					margin: 8px 20px 0 0;
+					float: left;
+					color: #fff;
+				}
+				.footer-area .address-list li.address .fa {
+					margin: 8px 16px 20px 0;
+					font-size: 18px;
+				}
+		.footer-area .tweets-list {			
+		}
+			.footer-area .tweets-list li {
+				margin-top: 10px;
+			}
+			.footer-area .tweets-list li .fa {
+				margin: 7px 12px 20px 0;
+				color: #fff;
+				font-size: 18px;
+				float: left;
+			}
+			.footer-area .tweets-list li a:hover {
+				text-decoration: underline;
+			}
+		.footer-area .newsletter {			
+			margin-top: 35px;
+		}
+			.footer-area .newsletter .form-control {
+				padding: 15px 20px;
+                margin-bottom: 20px;
+				height: 52px;
+				color: #fff ;
+				background-color: cornflowerblue;
+				border-color: cornflowerblue;
+			}
+
+			.footer-area .newsletter .form-control::placeholder {
+				color: #fff ;
+			}
+
+			.footer-area .newsletter .form-control:focus {
+				border-color: whitesmoke;
+			}
+			.footer-area .newsletter .btn-secondary {
+				margin-top: 25px;
+				text-transform: uppercase;
+				font-weight: 500;
+			}
+			
+/* Copyright Styles Starts */
+
+.copyright {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 15px;
+	text-transform: uppercase;
+	background-color: peachpuff;
+}
+	.copyright > .container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.copyright, 
+	.copyright a {
+		color: #8d8d8d;
+	}
+	.copyright span, 
+	.copyright a:hover {
+		color: #e24d4d;
+	}
+	.copyright p, 
+	.copyright ul {
+		margin-bottom: 0;
+	}
+		.copyright li {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.copyright li:last-of-type {
+			padding-right: 0;
+		}
